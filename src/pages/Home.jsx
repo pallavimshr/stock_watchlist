@@ -23,7 +23,7 @@ function Home() {
                 : ""}
         </p>
       </div>
-      {!loading && !error && searchResults?.length && (
+      {!loading && !error && searchResults.length !== 0 && (
         <SearchList
           searchResults={searchResults}
           setSearchResults={setSearchResults}
