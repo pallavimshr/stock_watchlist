@@ -32,6 +32,10 @@ Follow these instructions to run this project locally for development and testin
    `    npm start`
    After this, your application should be up and running on [http://localhost:3000](http://localhost:3000).
 
+* ### Home Page
+
+   ![Screenshot](Snapshots/home.png)
+
 We hope you enjoy using the Stock Watchlist Application!
 
 ---
