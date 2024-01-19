@@ -12,8 +12,16 @@ function Home() {
   return (
     <div>
       <SearchBar query={query} setQuery={setQuery} />
-      <div className="flex items-center w-full justify-center">
-        {loading ? "Loading..." : error ? error : ""}
+      <div className="max-w-lg mx-auto p-4 bg-white rounded shadow-md mt-4 text-center sm:max-w-lg md:max-w-xl lg:max-w-2xl">
+        <p className="text-lg font-semibold text-gray-800">
+          {query === ""
+            ? "Search for your favourite Companies!"
+            : loading
+              ? "Loading..."
+              : error
+                ? error
+                : ""}
+        </p>
       </div>
       {!loading && !error && searchResults.length !== 0 && (
         <SearchList

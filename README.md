@@ -15,11 +15,11 @@ Follow these instructions to run this project locally for development and testin
 
 1. **Clone the repository**
    ```
-   git clone https://github.com/username/stock-watchlist.git
+   git clone https://github.com/pallavimshr/stock_watchlist.git
    ```
 2. **Navigate into the directory**
    ```
-   cd stock-watchlist
+   cd stock_watchlist
    ```
 3. **Install the dependencies**
    ```
