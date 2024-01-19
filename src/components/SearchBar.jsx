@@ -1,7 +1,7 @@
 // SearchBar.js
 import {React , useState} from "react";
 
-const SearchBar = ({ query, setQuery, onApiKeySubmit }) => {
+const SearchBar = ({ query, setQuery, onApiKeySubmit,apiKey }) => {
   const [apiKey, setApiKey] = useState("");
   const handleSubmit = () => {
     // Submit the API key to the parent component
