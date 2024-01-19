@@ -55,7 +55,7 @@ const useStockSearch = (query) => {
   useEffect(() => {
     let timer = setTimeout(() => {
       if (query.length > 0) {
-        fetchStockData();// eslint-disable-line
+        fetchStockData(); // eslint-disable-line
       }
     }, 500);
     return () => clearTimeout(timer);

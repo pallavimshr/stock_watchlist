@@ -22,8 +22,11 @@ Follow these instructions to run this project locally for development and testin
    cd stock_watchlist
    ```
 3. **Install the dependencies**
+
    ```
    npm install
+   ```
+
    ```
 
    ```
@@ -40,23 +43,26 @@ Follow these instructions to run this project locally for development and testin
    `    npm start`
    After this, your application should be up and running on [http://localhost:3000](http://localhost:3000).
 
-* ### Home Page
+- ### Home Page
 
-   ![Screenshot](Snapshots/home.png)
-  * ### Home Page on Mobile
+  ![Screenshot](Snapshots/home.png)
 
-   ![Screenshot](Snapshots/mobile.jpg)
-  * ### Search
+  - ### Home Page on Mobile
 
-   ![Screenshot](Snapshots/search1.png)
+  ![Screenshot](Snapshots/mobile.jpg)
+
+  - ### Search
+
+  ![Screenshot](Snapshots/search1.png)
   ![Screenshot](Snapshots/search2.png)
 
-  * ### Watchlist
+  - ### Watchlist
 
-   ![Screenshot](Snapshots/watchlist.png)
-  * ### Delete
+  ![Screenshot](Snapshots/watchlist.png)
 
-   ![Screenshot](Snapshots/delete.png)
+  - ### Delete
+
+  ![Screenshot](Snapshots/delete.png)
 
 We hope you enjoy using the Stock Watchlist Application!
 
