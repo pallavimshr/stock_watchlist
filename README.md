@@ -35,6 +35,20 @@ Follow these instructions to run this project locally for development and testin
 * ### Home Page
 
    ![Screenshot](Snapshots/home.png)
+  * ### Home Page on Mobile
+
+   ![Screenshot](Snapshots/mobile.png)
+  * ### Search
+
+   ![Screenshot](Snapshots/search1.png)
+  ![Screenshot](Snapshots/search2.png)
+
+  * ### Watchlist
+
+   ![Screenshot](Snapshots/watchlist.png)
+  * ### Delete
+
+   ![Screenshot](Snapshots/delete.png)
 
 We hope you enjoy using the Stock Watchlist Application!
 
