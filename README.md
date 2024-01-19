@@ -25,15 +25,10 @@ Follow these instructions to run this project locally for development and testin
    ```
    npm install
    ```
-4. **Setup the API Key**
-
-   Open the `.env` file in your text editor and replace `YOUR_API_KEY` with the actual API Key.
 
    ```
-   REACT_APP_ALPHA_VANTAGE_KEY=YOUR_API_KEY
-   ```
 
-5. **Start the application**
+4. **Start the application**
    `    npm start`
    After this, your application should be up and running on [http://localhost:3000](http://localhost:3000).
 
@@ -41,4 +36,4 @@ We hope you enjoy using the Stock Watchlist Application!
 
 ---
 
-Have any suggestions or facing an issue? Feel free to [contact us](mailto:contact@stockwatchlist.com) or raise an issue on our GitHub repository.
+Have any suggestions or facing an issue? Feel free to raise an issue on our GitHub repository.

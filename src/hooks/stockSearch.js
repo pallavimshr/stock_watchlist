@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const useStockSearch = (query, apikey) => {
+const useStockSearch = (query, apiKey) => {
   const [searchResults, setSearchResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -11,7 +11,7 @@ const useStockSearch = (query, apikey) => {
     setLoading(true);
     try {
       const response = await axios.get(
-        `${process.env.REACT_APP_ALPHAVANTAGE_URL}/query?function=SYMBOL_SEARCH&keywords=${query}&apikey=${apikey}`,
+        `${process.env.REACT_APP_ALPHAVANTAGE_URL}/query?function=SYMBOL_SEARCH&keywords=${query}&apikey=${apiKey}`,
       );
 
       if (response.data?.bestMatches) {
