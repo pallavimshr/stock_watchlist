@@ -37,7 +37,7 @@ Follow these instructions to run this project locally for development and testin
    ![Screenshot](Snapshots/home.png)
   * ### Home Page on Mobile
 
-   ![Screenshot](Snapshots/mobile.png)
+   ![Screenshot](Snapshots/mobile.jpg)
   * ### Search
 
    ![Screenshot](Snapshots/search1.png)
